@@ -1,0 +1,32 @@
+# WBS 跟 BNB 波动铺单配置（每 5 分钟热加载）
+# token / secret_key 请自行填写，勿提交仓库
+
+host: "https://oapi.websea.com"
+token: "eb157511988afbb7771d34be9ay20973293"
+secret_key: "dn3ptddjx8lav3472do1"
+
+symbol: "WBS-USDT"
+
+# Binance 参考价
+binance_host: "https://api.binance.com"
+ref_symbol: "BNBUSDT"
+bnb_amplify: 5            # BNB 相对涨跌放大倍数：BNB+1% → mid+5%
+
+# 初始 mid：留空则启动时读 WBS 盘口中间价
+initial_mid:
+
+# 挂单参数
+order_count: 50          # 买卖各挂单数量
+order_amount: 2000       # 单边总挂单金额（USDT）；随机拆成 order_count 份，按从小到大分配到近->远档
+price_ratio: 0.001       # 万2：buy1=mid*(1-r), sell1=mid*(1+r)
+
+# 精度：留空则从 /openApi/market/precision 拉取
+price_precision:
+amount_precision:
+
+# 循环
+loop_interval_sec: 10
+yaml_reload_sec: 300
+
+# true 时只打印目标价，不真实下单
+dry_run: false  #true

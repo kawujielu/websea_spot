@@ -1,0 +1,42 @@
+# WBS 自刷量配置（方案1：brush）
+# token / secret_key 可与 wbs_bnb_maker.yaml 相同
+
+host: "https://oapi.websea.com"
+token: "eb157511988afbb7771d34be9ay20973293"
+secret_key: "dn3ptddjx8lav3472do1"
+
+symbol: "WBS-USDT"
+
+# 第 1 天起算日期（留空则首次运行为今天，并写入 state）
+start_date: "2026-10-09"
+
+# 日目标：首日 400 万，每天 *0.98，最低 10 万后固定
+day1_target_usdt: 4000000
+daily_decay: 0.98
+daily_floor_usdt: 100000
+tolerance: 0.01              # 控速参考带宽（±1%）；可少；略超不停止继续刷
+
+# 间隔（秒）
+interval_min_sec: 2
+interval_max_sec: 10
+
+# 单笔金额(USDT)：不得超过 500U；超出则在 10~250U 随机
+usdt_hard_max: 500
+usdt_fallback_min: 10
+usdt_fallback_max: 250
+
+# 精度：留空则从接口拉取
+price_precision:
+amount_precision:
+
+# 状态文件（当日已刷 USDT）
+state_file: "wbs_bnb_volume.state.json"
+
+yaml_reload_sec: 300
+
+# 刷量方式：true=优先 brush；公共 oapi 无 brush 时会自动改对敲
+# 也可手动设 false 强制同价买卖对敲
+use_brush: true
+
+# true 只打印不真实刷
+dry_run: false
