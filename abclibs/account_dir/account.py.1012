@@ -1,0 +1,149 @@
+account = {
+    "volume_first": {"token": "0fed027e443de5db584f8b9712681162", "sk": "fwl5sp7ayb1fc9uxvjdi", "uid": 10},  # andrew
+    "volume_second": {"token": "", "sk": "", "uid": ""},
+    "contract_volume": {"token": "84ad0e771f0f5f2df264e56d0ecddef9", "sk": "9cvay7ieczqp01lwy0zr", "uid": 18},
+
+    "contract_volume_flash1": {"token": "", "sk": "", "uid": ""},
+    "contract_volume_flash2": {"token": "", "sk": "", "uid": ""},
+
+    "maker_near": {"token": "dfab8bd76d7fea39e4aa6af328cbd187", "sk": "l8nemtb6r1diqmksp721", "uid": 11},  # whm
+    "maker_defense": {"token": "e91f9f0f3067a0b19b1b7505643f84b0", "sk": "sbwcn5zty4dsqznffxgt", "uid": 12},  # here
+    "maker_depth": {"token": "f5050e883a7e29189298131ca32d10da", "sk": "2wx70l5uhzky93mzmq8s", "uid": 13},  # hyy
+
+    "maker_near_second": {"token": "", "sk": "", "uid": ""},
+    "maker_defense_second": {"token": "", "sk": "", "uid": ""},
+    "maker_depth_second": {"token": "", "sk": "", "uid": ""},
+
+    "contract_near": {"token": "343d6405c5bceb820d47c502a3357775", "sk": "9lbvo1ti1jlznd3czjwp", "uid": 19},
+    "contract_near_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_near": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_near_second": {"token": "", "sk": "", "uid": ""},
+    "contract_defense": {"token": "f92b5404bb7814170ab65caf3e3541c3", "sk": "b3cihitxwlxpjoltntb1", "uid": 20},
+    "contract_defense_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_defense": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_defense_second": {"token": "", "sk": "", "uid": ""},
+
+    "contract_depth": {"token": "e5a9248ff0051a647fa3b3228c9868f9", "sk": "ghg628ioeqnnof5i1n5k", "uid": 21},
+    "contract_depth_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_depth": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_depth_second": {"token": "", "sk": "", "uid": ""},
+    
+    "dc": {"token": "78fc47c5590f77ca42d1e2c3bb432813", "sk": "5e5yg7ga285hctuqrtpb", "uid": "196"},
+
+    "spot_bak_1": {"token": "bfd05fd5c839035c13826a8c72ca9697", "sk": "6mo45qe3z57lnze1zc9w", "uid": 14},
+    "spot_bak_2": {"token": "c911064da6410fe1e31741243029ec0d", "sk": "w34hczm8280evuwgoemo", "uid": 15},
+    "spot_bak_3": {"token": "dfe9b8bdc54f4461b04b876e065201f1", "sk": "01k2iq47q99o5npoi6p2", "uid": 16},
+    "spot_bak_4": {"token": "caeada25a14879e043468e7d2c58831d", "sk": "35dbq5od4lxjo0tujm08", "uid": 17},
+
+    "contract_bak_1": {"token": "3a4f68d2dce6a863ae7a0eb271cf6820", "sk": "zvjnkwctuwtzhgstdgwz", "uid": 22},
+    "contract_bak_2": {"token": "9c09cc01ddb22536b80cf5526e0e0d08", "sk": "r8b6uw0vojwtnpzuevt3", "uid": 23},
+    "contract_bak_3": {"token": "fd0bc370e0f8dc47a923f54fca31d3d2", "sk": "zbihesbcp6yz5j0awlqv", "uid": 24},
+    "contract_bak_4": {"token": "d6678ea254de541f67594668b8ee7937", "sk": "tz1rtf00gudmgch3jchl", "uid": 25},
+
+    "maker_usdt_whale": {"token": "", "sk": "", "uid": ""},
+    "sweep_usdt": {"token": "", "sk": "", "uid": ""},
+    "sweep_rest": {"token": "", "sk": "", "uid": ""},
+    "spot_ice": {"token": "", "sk": "", "uid": ""},
+
+
+}
+
+
+account_test = {
+    "volume_first": {"token": "4d630813f6faa69fb90611bd73ae148c", "sk": "tac0gklb3lw9xz2mz3fe", "uid": 98},  # andrew
+    "volume_second": {"token": "", "sk": "", "uid": ""},
+    "contract_volume": {"token": "4d630813f6faa69fb90611bd73ae148c", "sk": "tac0gklb3lw9xz2mz3fe", "uid": 98},
+
+    "contract_volume_flash1": {"token": "", "sk": "", "uid": ""},
+    "contract_volume_flash2": {"token": "", "sk": "", "uid": ""},
+
+    "maker_near": {"token": "5bae7319086ca6cdc135803a5426da33", "sk": "allhrtvujrbrjdvbgf73", "uid": 96},  # whm
+    "maker_defense": {"token": "55c7e5b0334e3c292033e9bd86b85e60", "sk": "62ae9v2g7ios4wfjfzla", "uid": 95},  # here
+    "maker_depth": {"token": "3f57905a03a32432fae784037cb44f4c", "sk": "sx4n8k2nh8hfz5gjs672", "uid": 97},  # hyy
+
+    "maker_near_second": {"token": "", "sk": "", "uid": ""},
+    "maker_defense_second": {"token": "", "sk": "", "uid": ""},
+    "maker_depth_second": {"token": "", "sk": "", "uid": ""},
+
+    "contract_near": {"token": "5bae7319086ca6cdc135803a5426da33", "sk": "allhrtvujrbrjdvbgf73", "uid": 96},
+    "contract_near_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_near": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_near_second": {"token": "", "sk": "", "uid": ""},
+
+    "contract_defense": {"token": "55c7e5b0334e3c292033e9bd86b85e60", "sk": "62ae9v2g7ios4wfjfzla", "uid": 95},
+    "contract_defense_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_defense": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_defense_second": {"token": "", "sk": "", "uid": ""},
+
+    "contract_depth": {"token": "3f57905a03a32432fae784037cb44f4c", "sk": "sx4n8k2nh8hfz5gjs672", "uid": 97},
+    "contract_depth_second": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_depth": {"token": "", "sk": "", "uid": ""},
+    "aq_contract_depth_second": {"token": "", "sk": "", "uid": ""},
+
+    "spot_bak_1": {"token": "", "sk": "", "uid": ""},
+    "spot_bak_2": {"token": "", "sk": "", "uid": ""},
+    "spot_bak_3": {"token": "", "sk": "", "uid": ""},
+    "spot_bak_4": {"token": "", "sk": "", "uid": ""},
+
+    "contract_bak_1": {"token": "", "sk": "", "uid": ""},
+    "contract_bak_2": {"token": "", "sk": "", "uid": ""},
+    "contract_bak_3": {"token": "", "sk": "", "uid": ""},
+    "contract_bak_4": {"token": "", "sk": "", "uid": ""},
+
+
+    "maker_usdt_whale": {"token": "", "sk": "", "uid": ""},
+    "sweep_usdt": {"token": "", "sk": "", "uid": ""},
+    "sweep_rest": {"token": "", "sk": "", "uid": ""},
+    "spot_ice": {"token": "", "sk": "", "uid": ""},
+
+
+}
+
+
+exchange_accounts = {
+    #'bn': {'apiKey': 'Ax4BaiBADEvtTR19ib1l38KOEeSBIhKrghmewMZ3lX5gxcHO8DQHlNDifvB4UEAv',
+    #       'secret': 'LepmLIGR5fXAPDWQCopVTC74PLzyjgzC6w187fqrltnlwSrSmo8EkFpx2zsmSUPE'},
+    'bn': {'apiKey': 'zRlKsp7q7UBjavjLI0sCHGcJEO6c89ksjPp0IFk7ILBEhfM0vi7Lu8uE7ilkfuae',
+           'secret': 'o4nTXZiQhaJ18YUS0E93vxNstUpS0FUfj3Hx9YOULFQceBKDHknaRdtGJA1zNdmF'},
+    #'bn': {'apiKey': 'jtOTFkVqpHnS1tqxNwJ1uFXuKSvj6P8sQWXdQoxXq2ILavMZ6qj9aZ4bHjTqZgtF',
+    #       'secret': 'LUrTCAXZioyop0sKrTYbT9ozrBAJJFGGnCZzKUQY9qpsRoBEJRCK6mG8sXh0awV7'},
+    'bn_contract': {'apiKey': 'vPy77sQMTjALUl4Y70IAA5UvVWFn7HsDYGBdkQXl1C3m0XiG8L5WWWxNzYQJ5AvE',
+           'secret': 'xIbhUBulE3b9ycvqqaGloqZdO4320IyB0yoQvpn92IWAydnVifwIeC3p8n2C5jzC'},
+    'okex': {'apiKey': "71de2e01-8a7e-4dc6-b587-920997d7ec2c",
+           'secret': "9CB9F465BD1494EB6134742EC0DB3289",
+           'password': 'Quant123...', 'flag': '1'},
+    # # hb,gate 没有测试网络
+    # 'hb': {'apiKey': 'b7e15bdd-bgbfh5tv3f-0bf80824-d95e5',
+    #        'secret': '4a340036-a21a5241-c8805729-c4b1c'},
+    # 'gateio': {'apiKey': '4cb40d8969cafb0f4d360ea6030d768b',
+    #          'secret': 'ded3a8f1e5cf658a6e9cc1eda6b8de8e3fde8ff69b10a89493fd4c7db62bb019'},
+    'hb': {'apiKey': '197feb7b-bn2wed5t4y-25df15af-e0f03',
+           'secret': '49eb1b08-67a413d5-766287c6-9e185'},
+    #'gate': {'apiKey': 'f483ee25a4b44935a6324437e4bcc3f9',
+    #         'secret': '0f93fb419b3350af79923cda0d9517bffd9a63890fb88418340afdc5e6d45cbb'},
+    'gate': {'apiKey': '098ecd05b2d1baaf912b3e77dfe4a218',
+             'secret': '24a23fe9844c48cf5cbe2f77c234b197f4ab7654471d1268be4acab606fa2c24'},
+    #'gate': {'apiKey': '76e5a2f941c0689ad082ff77321dc44c',
+    #         'secret': 'bd84a523a064587d0c538a40427b7ff404d4095e6b0e723aab4b9d9878c9c0ab'},
+    # 'mxc': {'apiKey': 'mx0vglObuhQkpFLJIZ',
+    #         'secret': '10b552b8ef924b5bb187c4390f0c3c8b'},
+    'mxc': {'apiKey': 'mx0vglLasXyWKd3MiK',
+            'secret': '191b664d7bdf43ed8a6981d7b899465c'},
+    'bitget': {'apiKey': 'bg_891bf325416f411785e7671f69d50df2',
+        'secret': '6d91f543afbc0f3c40e40f32ad7a2909f89234cf6fb66d7335568c8909fcb01d', 'password': 'jia123456'},
+    'xdc': {'apiKey': '78fc47c5590f77ca42d1e2c3bb432813',
+        'secret': '5e5yg7ga285hctuqrtpb',"uid":"196"},
+    'ethereum_1': {
+        'apiKey': '0xB00E871aAebc8feB2f61a5326bBBfC63fFEBE54e',  # address
+        #'apiKey': '0xC4CB0f670DFdC7c28F49F63feAacb2E10BAFdeC7',  # address
+        'secret': '650744ee895bbd87716058861980b4a6a98f7a4efd286067c30a16c263139d9b',
+        #'secret': '466da00cf375703f6dfe77ec1a97507126d26dd496621043f9134cff1ebf07d2',
+        'node': 'https://mainnet.infura.io/v3/d6bb88fe3aac458e8afa7d010f8f5e6f',},
+    'bsc_1': {
+        'apiKey': '0xC4CB0f670DFdC7c28F49F63feAacb2E10BAFdeC7',  # address
+        'secret': '466da00cf375703f6dfe77ec1a97507126d26dd496621043f9134cff1ebf07d2',
+        # https://chainlist.org/?search=bsc&testnets=true
+        'node': 'https://data-seed-prebsc-1-s1.binance.org:8545'},
+}
+
+contract_exchange_accounts = {}

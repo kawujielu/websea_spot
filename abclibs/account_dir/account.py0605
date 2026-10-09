@@ -1,0 +1,40 @@
+account = {
+    "volume_first": {"token": "cb95edcac135b5a28ed76233abca5b00", "sk": "t8leukegp3t487kzj9xf"},  # andrew
+    "volume_second": {"token": "", "sk": ""},
+    "contract_volume": {"token": "cb95edcac135b5a28ed76233abca5b00", "sk": "t8leukegp3t487kzj9xf"},
+    "contract_volume_flash1": {"token": "", "sk": ""},
+    "contract_volume_flash2": {"token": "", "sk": ""},
+    "Jammer": {"token": "", "sk": ""},
+    "maker_defense": {"token": "4185ee92b273de729bdb5618296875e5", "sk": "unn8hmmeywer9sx67y13"},  # here
+    "maker_depth": {"token": "27fa0db14cfc87092eaa77ca913008c8", "sk": "3gpores65d17jb0fb9xp"},  # hyy
+    "maker_near": {"token": "f56d8d9b7a92b495e84119b3c53558a5", "sk": "g0bbteibtlhovkr9jozs"},  # whm
+    "maker_usdt_whale": {"token": "", "sk": ""},
+    "sweep_usdt": {"token": "", "sk": ""},
+    "sweep_rest": {"token": "", "sk": ""},
+    "spot_ice": {"token": "", "sk": ""},
+    "shotgun": {"token": "", "sk": ""},
+    "bak_a": {"token": "", "sk": ""},
+    "maker_depth_second": {"token": "", "sk": ""},
+    "maker_defense_second": {"token": "", "sk": ""},
+    "maker_near_second": {"token": "", "sk": ""},
+    "account16": {"token": "", "sk": ""},
+    "account17": {"token": "", "sk": ""},
+
+    "contract_near": {"token": "f56d8d9b7a92b495e84119b3c53558a5", "sk": "g0bbteibtlhovkr9jozs"},
+    "contract_near_second": {"token": "", "sk": ""},
+    "aq_contract_near": {"token": "", "sk": ""},
+    "aq_contract_near_second": {"token": "", "sk": ""},
+
+    "contract_depth": {"token": "27fa0db14cfc87092eaa77ca913008c8", "sk": "3gpores65d17jb0fb9xp"},
+    "contract_depth_second": {"token": "", "sk": ""},
+    "aq_contract_depth": {"token": "", "sk": ""},
+    "aq_contract_depth_second": {"token": "", "sk": ""},
+
+    "contract_defense": {"token": "4185ee92b273de729bdb5618296875e5", "sk": "unn8hmmeywer9sx67y13"},
+    "contract_defense_second": {"token": "", "sk": ""},
+    "aq_contract_defense": {"token": "", "sk": ""},
+    "aq_contract_defense_second": {"token": "", "sk": ""},
+
+}
+
+
