@@ -1,0 +1,51 @@
+import libs
+
+if libs.libs_config.DEBUG:
+    EXCHANGE_CONFIG = {
+        "bn": {"spot_ws": "wss://stream.binance.com:9443/stream",
+               "spot_restful": "https://testnet.binance.vision",
+               "private_ws": "wss://testnet.binance.vision/ws/"},  # test
+        "hb": {"spot_ws": "wss://api-aws.huobi.pro/ws",
+               "spot_restful": "https://api-aws.huobi.pro",
+               "private_ws": "wss://api-aws.huobi.pro/ws/v2"},
+        "okex": {"spot_ws": "wss://ws.okx.com:8443/ws/v5/public",
+                 "spot_restful": "https://www.okx.com",
+                 "private_ws": "wss://wspap.okx.com:8443/ws/v5/private?brokerId=9999"},  # test
+        "gate": {"spot_ws": "wss://api.gateio.ws/ws/v4/",
+                 "spot_restful": "https://api.gateio.ws",
+                 "private_ws": "wss://api.gateio.ws/ws/v4/"},
+        "mxc": {"spot_ws": "wss://wbs.mexc.com/ws",
+                "spot_restful": "https://api.mexc.com",
+                "private_ws": "wss://wbs.mexc.com/ws"},
+        "bitget": {"spot_ws": "wss://ws.bitget.com/v2/ws/public",
+                   "spot_restful": "https://api.bitget.com",
+                   "private_ws": "wss://ws.bitget.com/v2/ws/private"},
+        "kraken": {"spot_ws": "wss://ws.kraken.com/v2",
+                   "spot_restful": "https://api.kraken.com",
+                   "private_ws": "wss://ws-auth.kraken.com/v2"},
+    }
+else:
+    EXCHANGE_CONFIG = {
+        "bn": {"spot_ws": "wss://stream.binance.com:9443/stream",
+               "spot_restful": "https://api.binance.com",
+               "private_ws": "wss://stream.binance.com:9443/ws/"},
+        "hb": {"spot_ws": "wss://api-aws.huobi.pro/ws",
+               "spot_restful": "https://api-aws.huobi.pro",
+               "private_ws": "wss://api-aws.huobi.pro/ws/v2"},
+        "okex": {"spot_ws": "wss://ws.okx.com:8443/ws/v5/public",
+                 "spot_restful": "https://www.okx.com",
+                 "private_ws": "wss://ws.okx.com:8443/ws/v5/private"},
+                 # "private_ws": "wss://wspap.okx.com:8443/ws/v5/private?brokerId=9999"},  # test
+        "gate": {"spot_ws": "wss://api.gateio.ws/ws/v4/",
+                 "spot_restful": "https://api.gateio.ws",
+                 "private_ws": "wss://api.gateio.ws/ws/v4/"},
+        "mxc": {"spot_ws": "wss://wbs.mexc.com/ws",
+                "spot_restful": "https://api.mexc.com",
+                "private_ws": "wss://wbs.mexc.com/ws"},
+        "bitget": {"spot_ws": "wss://ws.bitget.com/v2/ws/public",
+                   "spot_restful": "https://api.bitget.com",
+                   "private_ws": "wss://ws.bitget.com/v2/ws/private"},
+        "kraken": {"spot_ws": "wss://ws.kraken.com/v2",
+                   "spot_restful": "https://api.kraken.com",
+                   "private_ws": "wss://ws-auth.kraken.com/v2"},
+    }
